@@ -35,7 +35,7 @@ public class CheckWeather extends ConfigValues {
 	}
 
 	@Test
-	public void checkWeatherTempraturAndSunnyDays() {
+	public void checkWeatherTemperatureAndSunnyDays() {
 
 		float currentTemprature;
 		int sunnyWeatherId;
@@ -78,7 +78,7 @@ public class CheckWeather extends ConfigValues {
 		}
 		
 		// Number of elements in tempratureAbove20Degree HashSet 
-		System.out.println("Number of days temprature predicted to be above 20 Degrees in next 5 days :  " + tempratureAbove20Degree.size());
+		System.out.println("Number of days temperature predicted to be above 20 Degrees in next 5 days :  " + tempratureAbove20Degree.size());
 		tempratureAbove20Degree.forEach(System.out::println);
 
 		// Number of elements in sunnyDays HashSet 
