@@ -10,3 +10,10 @@ The program has written in Java using Rest Assured & Junit.
 3. Navigate to CheckWeather Class 
 4. Run JUnit Test checkWeatherTemperatureAndSunnyDays
 This will print the predicated number of days temprature above 20 Degrees and Sunny days predicated in next 5 days
+
+
+# Project Structure: 
+![Project Structure](screenshots/Project_TestClass.PNG)
+
+# Test Execution: 
+![Test Execution Image](screenshots/Project_TestExecution.PNG)
